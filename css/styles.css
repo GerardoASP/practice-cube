@@ -61,6 +61,11 @@
             & .front-one{
                 transform: translateZ(30px);
                 background: linear-gradient(45deg, #ff0000, #bdd846);
+                & .svg-icon{
+                    width: auto;
+                    height: 50px;
+                    transform: rotateX(200deg) rotateY(200deg);
+                }
             }
             & .back-one{
                 transform: translateZ(-30px);
@@ -102,6 +107,10 @@
             & .front-two{
                 transform: translateZ(30px);
                 background: linear-gradient(45deg, #ff0000, #bdd846);
+                & .svg-icon{
+                    width: auto;
+                    height: 50px;
+                }
             }
             & .back-two{
                 transform: translateZ(-30px);
@@ -143,6 +152,11 @@
             & .front-three{
                 transform: translateZ(30px);
                 background: linear-gradient(45deg, #ff0000, #bdd846);
+                & .svg-icon{
+                    width: auto;
+                    height: 50px;
+                    transform: rotateX(200deg) rotateY(200deg);
+                }
             }
             & .back-three{
                 transform: translateZ(-30px);
